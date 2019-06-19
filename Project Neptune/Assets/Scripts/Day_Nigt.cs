@@ -7,7 +7,7 @@ public class Day_Nigt : MonoBehaviour
     [Header("Time")]
     [Tooltip("Day Length in Minutes")]
     [SerializeField]
-    private float _targetDayLength = .5f;
+    private float _targetDayLength = .5f; // In minutes
     public float targetDayLength
     {
         get
